@@ -21,7 +21,7 @@
 
 ## About
 
-Undergraduate researcher in adversarial machine learning and explainable AI at Xiamen University Malaysia — 3.86 CGPA, full scholarship, three consecutive Dean's List semesters. Outside research, I take ownership end-to-end: sole architect on a six-month SaaS build, and Project Lead directing a seven-person engineering team to a national hackathon podium. Open to software engineering roles, research collaborations, and technical consulting.
+Undergraduate researcher in adversarial machine learning and explainable AI at Xiamen University Malaysia. Ranked #2 in my major (3.86 CGPA) with a full scholarship and three consecutive Dean's List awards. Outside research, I take ownership end-to-end: sole architect on a six-month SaaS build, and Project Lead directing a seven-person engineering team to a national hackathon podium. Open to software engineering roles, research collaborations, and technical consulting.
 
 <br/>
 
