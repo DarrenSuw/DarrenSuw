@@ -2,7 +2,6 @@ name: Generate Pacman Contribution Graph
 
 on:
   schedule:
-    # Runs every 12 hours
     - cron: "0 */12 * * *"
   workflow_dispatch:
 
@@ -12,13 +11,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generate Pacman Contribution Animation
-        uses: Platane/snk@v3
+      - name: Generate Pacman Animation
+        uses: play-pacman/play-pacman@v1.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark
+          output_dir: dist
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
